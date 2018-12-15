@@ -1,8 +1,12 @@
 {
-  "name": "ccmedia",
+  "name": "Landing-Page",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "devDependencies": {},
   "homepage": "https://charlescabico.github.io/CCmedia/",
   "scripts": {
     "deploy": "gh-pages -d dist"
@@ -11,12 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/charlescabico/CCmedia.git"
   },
-  "author": "Charles Cabico",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/charlescabico/CCmedia/issues"
-  },
-  "dependencies": {
-    "gh-pages": "^2.0.1"
   }
 }
