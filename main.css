@@ -144,3 +144,59 @@ footer p {
     top: 0;
   }
 }
+
+@media(max-width: 560px) {
+  .showcase::after {
+    height: 50vh;
+  }
+
+  .content {
+    top: 5%;
+    margin-top: 5px;
+  }
+
+  .content .title {
+    font-size: 1.1rem;
+    font-weight: 1000;
+  }
+
+  .content .logo {
+    width: 180px;
+  }
+
+  .content .text {
+    display: none;
+  }
+
+  .grid-2,
+  .grid-3 {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .services div {
+    border-bottom: #333 dashed 1px;
+    padding: 1.2rem 1rem;
+  }
+
+  .services #last {
+    border-bottom: none;
+  }
+
+  footer {
+    padding: 10px;
+  }
+
+}
+
+/* Landscape */
+@media(max-height: 320px) {
+  .content .title,
+  .content .text {
+    display: none;
+  }
+
+  .content {
+    top: 0;
+  }
+}
